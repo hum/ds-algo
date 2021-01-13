@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-TODO:
+**TODO:**
 - [ ] **Data Structures**
   - [ ] Arrays
   - [ ] Hash Tables
