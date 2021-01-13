@@ -10,8 +10,27 @@ In:
 array1 = [0, 3, 4, 31]
 array2 = [4, 6, 30]
 ```
-
 Out:
 ```go
 result = [0, 3, 4, 4, 6, 30, 31]
+```
+
+### Problem 2
+Given a non-sorted array, find the first recurring number. If no such pair exists, return an error.
+
+In:
+```go
+array = [2, 5, 1, 2, 3, 5, 1, 2, 4]
+```
+Out:
+```go
+2
+```
+In:
+```go
+array = [2, 1, 1, 2, 3, 5, 1, 2, 4]
+```
+Out:
+```go
+1
 ```
