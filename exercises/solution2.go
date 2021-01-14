@@ -2,25 +2,20 @@ package main
 
 import (
 	"fmt"
-	"go/types"
 )
 
 func main() {
-	result, err := findRecurringNumber([]int{2, 5, 1, 2, 3, 5, 1, 2, 4})
-	if err != nil {
-		panic(err)
-	}
+	result := reverse("Hello, my name is...")
 	fmt.Println(result)
 }
 
-func findRecurringNumber(arr []int) (int, error) {
-	tmp := make(map[int]types.Nil, len(arr))
+func reverse(s string) string {
+	length := len(s)
+	runes := make([]rune, length)
 
-	for _, value := range arr {
-		if _, ok := tmp[value]; ok {
-			return value, nil
-		}
-		tmp[value] = types.Nil{}
+	for _, v := range s {
+		length--
+		runes[length] = v
 	}
-	return 0, fmt.Errorf("No pair of values found.")
+	return string(runes)
 }
