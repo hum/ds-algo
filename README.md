@@ -2,8 +2,8 @@
 
 **TODO:**
 - [ ] **Data Structures**
-  - [ ] Arrays
-  - [ ] Hash Tables
+  - [x] Arrays
+  - [x] Hash Tables
   - [ ] Linked Lists
   - [ ] Stacks + Queues
   - [ ] Trees
