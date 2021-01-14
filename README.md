@@ -4,7 +4,9 @@
 - [ ] **Data Structures**
   - [x] Arrays
   - [x] Hash Tables
-  - [ ] Linked Lists
+  - [x] Linked Lists
+    - [x] Singly Linked List
+    - [x] Doubly Linked List
   - [ ] Stacks + Queues
   - [ ] Trees
   - [ ] Graphs
