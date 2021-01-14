@@ -88,6 +88,21 @@ func (l *LinkedList) traverseToIndex(index int) *node {
 	return current
 }
 
+func (l *LinkedList) Reverse() {
+	if l.length == 1 {
+		return
+	}
+
+	first := l.head
+	second := first.next
+
+	for second != nil {
+		second.next, first, second = first, second, second.next
+	}
+	l.head.next = nil
+	l.head = first
+}
+
 func (l *LinkedList) String() string {
 	result := ""
 	current := l.head

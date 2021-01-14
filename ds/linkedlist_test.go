@@ -34,5 +34,4 @@ func TestLinkedList(t *testing.T) {
 			t.Fatalf("Unexpected value in the Linked List lookup. Expected %v, but got %v", tt.expected, value)
 		}
 	}
-
 }
