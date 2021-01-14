@@ -1,10 +1,10 @@
-package ds 
+package ds
 
 import "fmt"
 
 type Array struct {
 	length int
-	data []interface{}
+	data   []interface{}
 }
 
 func (a *Array) Get(index int) interface{} {
@@ -32,7 +32,7 @@ func (a *Array) Delete(index int) interface{} {
 }
 
 func (a *Array) shiftItems(index int) {
-	for i := index; i < a.length - 1; i++ {
+	for i := index; i < a.length-1; i++ {
 		a.data[i] = a.data[i+1]
 	}
 }
@@ -42,5 +42,5 @@ func (a *Array) String() string {
 }
 
 func (a *Array) Length() int {
-	return a.length	
+	return a.length
 }
