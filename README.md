@@ -5,6 +5,8 @@
   - [x] Arrays
   - [x] Hash Tables
   - [x] Linked Lists
+		- [x] Singly Linked List
+    - [x] Doubly Linked List
   - [x] Stacks
 		- [x] Array Implementation
 		- [x] Linked List Implementation

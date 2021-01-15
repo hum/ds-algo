@@ -38,3 +38,16 @@ Out:
 ```go
 2
 ```
+
+### Problem 4
+Given a Singly Linked List. Reverse the order of the nodes.
+
+In:
+```go
+linkedList = [1, 10, 16, 88]
+```
+Out:
+```go
+linkedList = [88, 16, 10, 1]
+```
+[Solution](https://github.com/hum/ds-algo/blob/27338caee1a9fcd45cc63f6d2f5b5e429c94ccd0/ds/linkedlist.go#L91)
