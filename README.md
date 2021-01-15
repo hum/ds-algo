@@ -10,7 +10,7 @@
   - [x] Stacks
 	- [x] Array Implementation
   	- [x] Linked List Implementation
-  - [ ] Queues
+  - [x] Queues
   - [ ] Trees
   - [ ] Graphs
 - [ ] **Algorithms**
