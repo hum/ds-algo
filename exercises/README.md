@@ -51,3 +51,23 @@ Out:
 linkedList = [88, 16, 10, 1]
 ```
 [Solution](https://github.com/hum/ds-algo/blob/27338caee1a9fcd45cc63f6d2f5b5e429c94ccd0/ds/linkedlist.go#L91)
+
+### Problem 5
+Implement a Queue using Stack.
+
+In:
+```go
+MyQueue queue = new MyQueue()
+
+queue.push(1)
+queue.push(2)
+queue.peek()
+queue.pop()
+queue.empty()
+```
+Out:
+```go
+1
+1
+false
+```
