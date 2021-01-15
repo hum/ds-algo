@@ -4,8 +4,11 @@
 - [ ] **Data Structures**
   - [x] Arrays
   - [x] Hash Tables
-  - [ ] Linked Lists
-  - [ ] Stacks + Queues
+  - [x] Linked Lists
+  - [x] Stacks
+		- [x] Array Implementation
+		- [x] Linked List Implementation
+	- [ ] Queues
   - [ ] Trees
   - [ ] Graphs
 - [ ] **Algorithms**
@@ -14,4 +17,3 @@
   - [ ] Searching (+ BFS and DFS)
 - [ ] **Extra**
   - [ ] Memoisation
-  - [ ] TBD...
