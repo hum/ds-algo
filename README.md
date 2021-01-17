@@ -19,3 +19,7 @@
   - [ ] Searching (+ BFS and DFS)
 - [ ] **Extra**
   - [ ] Memoisation
+
+
+**TODO 2:**
+- [ ] Add more exercises
