@@ -2,15 +2,15 @@
 
 **TODO:**
 - [ ] **Data Structures**
-  - [x] Arrays
-  - [x] Hash Tables
-  - [x] Linked Lists
-  	- [x] Singly Linked List
-	- [x] Doubly Linked List
-  - [x] Stacks
-	- [x] Array Implementation
-  	- [x] Linked List Implementation
-  - [ ] Queues
+  - [x] [Arrays]()
+  - [x] [Hash Tables]()
+  - [x] [Linked Lists]()
+  	- [x] [Singly Linked List]()
+	- [x] [Doubly Linked List]()
+  - [x] [Stacks]()
+	- [x] [Array Implementation]()
+  	- [x] [Linked List Implementation]()
+  - [x] [Queues]()
   - [ ] Trees
   - [ ] Graphs
 - [ ] **Algorithms**
@@ -19,3 +19,7 @@
   - [ ] Searching (+ BFS and DFS)
 - [ ] **Extra**
   - [ ] Memoisation
+
+
+**TODO 2:**
+- [ ] Add more exercises

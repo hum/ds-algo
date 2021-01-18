@@ -61,9 +61,9 @@ MyQueue queue = new MyQueue()
 
 queue.push(1)
 queue.push(2)
-queue.peek()
-queue.pop()
-queue.empty()
+print(queue.peek())
+print(queue.pop())
+print(queue.empty())
 ```
 Out:
 ```go
