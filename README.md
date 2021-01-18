@@ -2,7 +2,7 @@
 
 This is just a repository for having a unified reference for data structures and algorithms on hand. There are no runnable files per se, only test files to test the functionality of the implementations.
 
-There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises) - solutions included.
+There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises) - with solutions included.
 
 **Content:**
 - [ ] **Data Structures**
