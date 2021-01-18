@@ -63,18 +63,26 @@ func (l *DoublyLinkedList) Insert(index int, value interface{}) {
 	l.length++
 }
 
-func (l *DoublyLinkedList) Remove(index int) {
+func (l *DoublyLinkedList) Remove(index int) (interface{}, error) {
+	if index > l.length-1 {
+		return nil, fmt.Errorf("Index [%d] out of bounds.", index)
+	}
 	curr := l.traverseToIndex(index)
+	deletedValue := curr.next.value
 	curr.next, curr.next.prev = curr.next.next, curr
 	l.length--
+	return deletedValue, nil
 }
 
-func (l *DoublyLinkedList) Get(index int) interface{} {
+func (l *DoublyLinkedList) Get(index int) (interface{}, error) {
+	if index > l.length-1 {
+		return nil, fmt.Errorf("Index [%d] out of bounds.", index)
+	}
 	if index == 0 {
-		return l.head.value
+		return l.head.value, nil
 	}
 
-	return l.traverseToIndex(index).next.value
+	return l.traverseToIndex(index).next.value, nil
 }
 
 func (l *DoublyLinkedList) traverseToIndex(index int) *node2 {

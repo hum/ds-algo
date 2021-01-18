@@ -20,10 +20,13 @@ func TestGetFunction(t *testing.T) {
 	arr.Push("1")
 
 	for i, tt := range tests {
-		value := arr.Get(i)
+		value, err := arr.Get(i)
+		if err != nil {
+			t.Fatalf("Index %d is out of range. Array length is: %d", i, arr.Length())
+		}
 
 		if value != tt.expected {
-			t.Fatalf("Wrong value. Expected=%q, got %q", tt.expected, value)
+			t.Fatalf("Wrong value. Expected=%v, got %v", tt.expected, value)
 		}
 	}
 }
@@ -59,7 +62,10 @@ func TestPopFunction(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		value := arr.Pop()
+		value, err := arr.Pop()
+		if err != nil {
+			t.Fatalf("The array is empty. %v", err)
+		}
 
 		if value != tt.expected {
 			t.Fatalf("Wrong popped value. Expected=%q, got %q", tt.expected, value)
@@ -77,9 +83,22 @@ func TestDeleteFunction(t *testing.T) {
 	arr.Push("d")
 
 	lengthBefore := arr.Length()
-	value := arr.Delete(3)
+	value, err := arr.Delete(3)
+	if err != nil {
+		t.Fatalf("Index is out of range. Can't delete a value on index 3.")
+	}
 
-	if value == arr.Get(3) && lengthBefore == arr.Length() {
-		t.Fatalf("Error deleting element. Expected to delete the element %q from %s with length %d, but nothing changed.", value, arr.String(), arr.Length())
+	v, err := arr.Get(3)
+	if err != nil {
+		t.Fatalf("Index is out of range. Can't get a value on index 3.")
+	}
+
+	if value == v && lengthBefore == arr.Length() {
+		t.Fatalf("Error deleting element. Expected to delete the element %q from an array with length %d, but nothing changed.", value, arr.Length())
+	}
+
+	v, err = arr.Delete(500)
+	if err == nil {
+		t.Fatalf("Index 500 does not exist. The delete function should have thrown an error, but instead returned value %v", v)
 	}
 }

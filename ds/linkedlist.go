@@ -56,17 +56,25 @@ func (l *LinkedList) Insert(index int, value interface{}) {
 	l.length++
 }
 
-func (l *LinkedList) Remove(index int) {
+func (l *LinkedList) Remove(index int) (interface{}, error) {
+	if index > l.length-1 {
+		return nil, fmt.Errorf("Index [%d] out of bounds.", index)
+	}
 	curr := l.traverseToIndex(index)
+	deletedItem := curr.next
 	curr.next = curr.next.next
 	l.length--
+	return deletedItem.value, nil
 }
 
-func (l *LinkedList) Get(index int) interface{} {
-	if index == 0 {
-		return l.head.value
+func (l *LinkedList) Get(index int) (interface{}, error) {
+	if index > l.length-1 {
+		return nil, fmt.Errorf("Index [%d] out of bounds.", index)
 	}
-	return l.traverseToIndex(index).next.value
+	if index == 0 {
+		return l.head.value, nil
+	}
+	return l.traverseToIndex(index).next.value, nil
 }
 
 func (l *LinkedList) traverseToIndex(index int) *node {
