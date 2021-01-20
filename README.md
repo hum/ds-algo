@@ -5,7 +5,7 @@ This is just a repository for having a unified reference for data structures and
 There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises) - with solutions included.
 
 **Content:**
-- [ ] **Data Structures**
+- [x] **Data Structures**
   - [x] [Arrays](https://github.com/hum/ds-algo/blob/go/ds/array.go)
   - [x] [Hash Tables](https://github.com/hum/ds-algo/blob/go/ds/hashtable.go)
   - [x] Linked Lists
@@ -15,9 +15,9 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
 	- [x] [Array Implementation](https://github.com/hum/ds-algo/blob/go/ds/stack_array.go)
   	- [x] [Linked List Implementation](https://github.com/hum/ds-algo/blob/go/ds/stack.go)
   - [x] [Queues](https://github.com/hum/ds-algo/blob/go/ds/queue.go)
-  - [ ] Trees
+  - [x] Trees
     - [x] Binary Search Tree (BST)
-  - [ ] Graphs
+  - [x] Graphs
 - [ ] **Algorithms**
   - [ ] Recursion
   - [ ] Sorting
