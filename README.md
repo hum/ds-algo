@@ -16,7 +16,7 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
   	- [x] [Linked List Implementation](https://github.com/hum/ds-algo/blob/go/ds/stack.go)
   - [x] [Queues](https://github.com/hum/ds-algo/blob/go/ds/queue.go)
   - [x] Trees
-    - [x] Binary Search Tree (BST)
+  	- [x] [Binary Search Tree (BST)](https://github.com/hum/ds-algo/blob/go/ds/binary_search_tree.go)
   - [x] Graphs
 - [ ] **Algorithms**
   - [ ] Recursion
