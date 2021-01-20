@@ -10,9 +10,9 @@ import (
 //		2 connects to 0, 1 and 3
 //		3 connects to 1 and 2
 //
-//					2 -> 0
-//				 ^ ^
-//				1	-> 3
+//				2 -> 0
+//			       ^ ^
+//			      1	-> 3
 
 // Edge List
 // An array of connections between the nodes, each inner array lists the connection of node A to node B
