@@ -35,8 +35,5 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
 	- [ ] Graph + Tree Traversals
 	- [ ] Breadth-First Search (BFS)
 	- [ ] Depth-First Search (DFS)
-	- [ ] Djikstra + Bellman-Ford Algorithms
-
-**TODO 2:**
-- [ ] Add more exercises
-
+	- [ ] Djikstra's Algorithm
+	- [ ] Bellman-Ford Algorithm
