@@ -17,7 +17,7 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
   - [x] [Queues](https://github.com/hum/ds-algo/blob/go/ds/queue.go)
   - [x] Trees
   	- [x] [Binary Search Tree (BST)](https://github.com/hum/ds-algo/blob/go/ds/binary_search_tree.go)
-  - [x] Graphs
+  - [x] [Graphs](https://github.com/hum/ds-algo/blob/go/ds/graph.go)
 - [ ] **Algorithms**
   - [ ] Recursion
   - [ ] Sorting
@@ -35,8 +35,5 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
 	- [ ] Graph + Tree Traversals
 	- [ ] Breadth-First Search (BFS)
 	- [ ] Depth-First Search (DFS)
-	- [ ] Djikstra + Bellman-Ford Algorithms
-
-**TODO 2:**
-- [ ] Add more exercises
-
+	- [ ] Djikstra's Algorithm
+	- [ ] Bellman-Ford Algorithm
