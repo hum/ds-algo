@@ -92,7 +92,7 @@ Out:
 [Solution](https://github.com/hum/ds-algo/blob/go/exercises/solution6.go)
 </details>
 <details>
-<summary>Exercise 6 (fibonacci)</summary>
+<summary>Exercise 7 (fibonacci)</summary>
 Given a positive integer, find the n-th number on the fibonacci sequence.
 
 In:
