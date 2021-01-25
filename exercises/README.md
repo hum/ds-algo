@@ -77,3 +77,31 @@ Out:
 false
 ```
 </details>
+<details>
+<summary>Exercise 6 (factorial)</summary>
+Given a positive integer, find its factorial
+
+In:
+```go
+5
+```
+Out:
+```go
+120
+```
+[Solution](https://github.com/hum/ds-algo/blob/go/exercises/solution6.go)
+</details>
+<details>
+<summary>Exercise 6 (fibonacci)</summary>
+Given a positive integer, find the n-th number on the fibonacci sequence.
+
+In:
+```go
+8
+```
+Out:
+```go
+21
+```
+[Solution](https://github.com/hum/ds-algo/blob/go/exercises/solution7.go)
+</details>
