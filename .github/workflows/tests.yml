@@ -18,6 +18,10 @@ jobs:
       with:
         go-version: 1.15
 
-    - name: Test
+    - name: Test Data Structures
       working-directory: ds
+      run: go test -v ./...
+      
+    - name: Test Algorithms
+      working-directory: algorithms
       run: go test -v ./...
