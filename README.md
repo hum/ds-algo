@@ -21,9 +21,9 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
 - [ ] **Algorithms**
   - [x] [Recursion (Only exercises)](https://github.com/hum/ds-algo/tree/go/exercises)
   - [ ] Sorting
-  	- [ ] Bubble Sort
-	- [ ] Selection Sort
-	- [ ] Insertion Sort
+  	- [x] [Bubble Sort](https://github.com/hum/ds-algo/blob/go/algorithms/bubble_sort.go)
+	- [x] [Selection Sort](https://github.com/hum/ds-algo/blob/go/algorithms/selection_sort.go)
+	- [x] [Insertion Sort](https://github.com/hum/ds-algo/blob/go/algorithms/insertion_sort.go)
 	- [ ] Merge Sort
 	- [ ] Quick Sort
 	- [ ] Heap Sort
