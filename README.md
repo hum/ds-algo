@@ -19,7 +19,7 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
   	- [x] [Binary Search Tree (BST)](https://github.com/hum/ds-algo/blob/go/ds/binary_search_tree.go)
   - [x] [Graphs](https://github.com/hum/ds-algo/blob/go/ds/graph.go)
 - [ ] **Algorithms**
-  - [ ] Recursion
+  - [x] [Recursion (Only exercises)](https://github.com/hum/ds-algo/tree/go/exercises)
   - [ ] Sorting
   	- [ ] Bubble Sort
 	- [ ] Selection Sort
