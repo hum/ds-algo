@@ -3,7 +3,7 @@
 This is a list of short exercises for reference and a bit of problem solving. Feel free to check the solutions as well if you get stuck.
 
 <details>
-<summary>Exercise 1 (reversing a string)</summary>
+<summary>Reverse a string (Exercise 1)</summary>
 Reverse a given string.
 
 In:
@@ -16,7 +16,7 @@ result = "...si eman ym ,olleH"
 ```
 </details>
 <details>
-<summary>Exercise 2 (array merge)</summary>
+<summary>Merge Arrays (Exercise 2)</summary>
 Given 2 sorted arrays (slices), merge them into eachother while keeping the final array sorted.
 
 In:
@@ -30,7 +30,7 @@ result = [0, 3, 4, 4, 6, 30, 31]
 ```
 </details>
 <details>
-<summary>Exercise 3 (first recurring number)</summary>
+<summary>First Recurring Number (Exercise 3)</summary>
 Given a non-sorted array, find the first recurring number. If no such pair exists, return an error.
 
 In:
@@ -43,7 +43,7 @@ Out:
 ```
 </details>
 <details>
-<summary>Exercise 4 (reverse linked list)</summary>
+<summary>Reversing a Linked List (Exercise 4)</summary>
 Given a Singly Linked List. Reverse the order of the nodes.
 
 In:
@@ -57,7 +57,7 @@ linkedList = [88, 16, 10, 1]
 [Solution](https://github.com/hum/ds-algo/blob/27338caee1a9fcd45cc63f6d2f5b5e429c94ccd0/ds/linkedlist.go#L91)
 </details>
 <details>
-<summary>Exercise 5 (queue implementation with stack)</summary>
+<summary>Implement a Queue with a Stack (Exercise 5)</summary>
 Implement a Queue using Stack.
 
 In:
@@ -78,7 +78,7 @@ false
 ```
 </details>
 <details>
-<summary>Exercise 6 (factorial)</summary>
+<summary>Calculate Factorial (Exercise 6)</summary>
 Given a positive integer, find its factorial
 
 In:
@@ -92,7 +92,7 @@ Out:
 [Solution](https://github.com/hum/ds-algo/blob/go/exercises/solution6.go)
 </details>
 <details>
-<summary>Exercise 7 (fibonacci)</summary>
+<summary>Find n-th Fibonacci Number Recursively (Exercise 7)</summary>
 Given a positive integer, find the n-th number on the fibonacci sequence.
 
 In:
@@ -104,4 +104,19 @@ Out:
 21
 ```
 [Solution](https://github.com/hum/ds-algo/blob/go/exercises/solution7.go)
+</details>
+<details>
+<summary>Reverse a string recursively (Exercise 8)</summary>
+  
+Given a string, reverse it using a recursive approach.
+
+In:
+```go
+string = "Hello, my name is..."
+```
+Out:
+```go
+result = "...si eman ym ,olleH"
+```
+[Solution](https://github.com/hum/ds-algo/blob/go/exercises/solution8.go)
 </details>
