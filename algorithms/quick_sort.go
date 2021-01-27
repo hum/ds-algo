@@ -19,15 +19,11 @@ func partition(arr []int, pivot, left, right int) int {
 
 	for i := left; i < right; i++ {
 		if arr[i] < val {
-			swap(arr, i, partitionIndex)
+			arr[i], arr[partitionIndex] = arr[partitionIndex], arr[i]
 			partitionIndex++
 		}
 	}
 
-	swap(arr, right, partitionIndex)
+	arr[right], arr[partitionIndex] = arr[partitionIndex], arr[right]
 	return partitionIndex
-}
-
-func swap(arr []int, first, second int) {
-	arr[first], arr[second] = arr[second], arr[first]
 }
