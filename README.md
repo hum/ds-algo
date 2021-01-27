@@ -24,8 +24,8 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
   	- [x] [Bubble Sort](https://github.com/hum/ds-algo/blob/go/algorithms/bubble_sort.go)
 	- [x] [Selection Sort](https://github.com/hum/ds-algo/blob/go/algorithms/selection_sort.go)
 	- [x] [Insertion Sort](https://github.com/hum/ds-algo/blob/go/algorithms/insertion_sort.go)
-	- [ ] Merge Sort
-	- [ ] Quick Sort
+	- [x] [Merge Sort](https://github.com/hum/ds-algo/blob/go/algorithms/merge_sort.go)
+	- [x] [Quick Sort](https://github.com/hum/ds-algo/blob/go/algorithms/quick_sort.go)
 	- [ ] Heap Sort
 	- [ ] Radix Sort
 	- [ ] Counting Sort
