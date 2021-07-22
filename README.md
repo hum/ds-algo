@@ -6,20 +6,20 @@ There's also a few [exercises](https://github.com/hum/ds-algo/tree/go/exercises)
 
 **Content:**
 - [x] **Data Structures**
-  - [] [Arrays](https://github.com/hum/ds-algo/blob/go/ds/array.go)
-  - [] [Hash Tables](https://github.com/hum/ds-algo/blob/go/ds/hashtable.go)
-  - [] Linked Lists
-  	- [] [Singly Linked List](https://github.com/hum/ds-algo/blob/go/ds/linkedlist.go)
-	- [] [Doubly Linked List](https://github.com/hum/ds-algo/blob/go/ds/doublylinkedlist.go)
-  - [] Stacks
-	- [] [Array Implementation](https://github.com/hum/ds-algo/blob/go/ds/stack_array.go)
-  	- [] [Linked List Implementation](https://github.com/hum/ds-algo/blob/go/ds/stack.go)
-  - [] [Queues](https://github.com/hum/ds-algo/blob/go/ds/queue.go)
-  - [] Trees
-  	- [] [Binary Search Tree (BST)](https://github.com/hum/ds-algo/blob/go/ds/binary_search_tree.go)
-  - [] [Graphs](https://github.com/hum/ds-algo/blob/go/ds/graph.go)
+  - [ ] [Arrays](https://github.com/hum/ds-algo/blob/go/ds/array.go)
+  - [ ] [Hash Tables](https://github.com/hum/ds-algo/blob/go/ds/hashtable.go)
+  - [ ] Linked Lists
+  	- [ ] [Singly Linked List](https://github.com/hum/ds-algo/blob/go/ds/linkedlist.go)
+	- [ ] [Doubly Linked List](https://github.com/hum/ds-algo/blob/go/ds/doublylinkedlist.go)
+  - [ ] Stacks
+	- [ ] [Array Implementation](https://github.com/hum/ds-algo/blob/go/ds/stack_array.go)
+  	- [ ] [Linked List Implementation](https://github.com/hum/ds-algo/blob/go/ds/stack.go)
+  - [ ] [Queues](https://github.com/hum/ds-algo/blob/go/ds/queue.go)
+  - [ ] Trees
+  	- [ ] [Binary Search Tree (BST)](https://github.com/hum/ds-algo/blob/go/ds/binary_search_tree.go)
+  - [ ] [Graphs](https://github.com/hum/ds-algo/blob/go/ds/graph.go)
 - [ ] **Algorithms**
-  - [] [Recursion (Only exercises)](https://github.com/hum/ds-algo/tree/go/exercises)
+  - [ ] [Recursion (Only exercises)](https://github.com/hum/ds-algo/tree/go/exercises)
   - [ ] Sorting
   	- [] [Bubble Sort](https://github.com/hum/ds-algo/blob/go/algorithms/bubble_sort.go)
 	- [] [Selection Sort](https://github.com/hum/ds-algo/blob/go/algorithms/selection_sort.go)
